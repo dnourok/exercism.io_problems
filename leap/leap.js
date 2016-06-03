@@ -1,6 +1,6 @@
 var Year = function(number) {
   this.number = number;
-}
+};
 
 Year.prototype.isLeap = function() {
 if (this.number%400==0){
