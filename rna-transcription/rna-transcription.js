@@ -26,7 +26,6 @@ DnaTranscriber.prototype.toRna = function(dna){
 		dna = dna.toString("");
 		rnaCaseFive = dna.replace("ACGTGGTCTTAA","UGCACCAGAAUU");
 		return rnaCaseFive
-	 	break;
 	}
 };
 
